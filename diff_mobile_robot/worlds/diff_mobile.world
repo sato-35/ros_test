@@ -1,0 +1,17 @@
+<?xml version = "1.0" ?>
+<sdf version = "1.5">
+	<world name = "default">
+		<include>
+			<uri>model://ground_plane</uri>
+		</include>
+		<include>
+			<uri>model://sun</uri>
+		</include>
+		<include>
+			<name>Willow garage</name>
+			<uri>model://willowgarage</uri>
+			<static>true</static>
+			<pose>-30 -9 0 0 0 0</pose>
+		</include>
+	</world>
+</sdf>
